@@ -1,0 +1,41 @@
+.header {
+    position: fixed;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 5px rgba(154,88,93,0.2);
+    padding-bottom: 20px;
+    width:100%;
+    z-index: 2;
+}
+
+.logo {
+    float: right;
+    width: 94px;
+    height: 94px;
+    margin-right: 34px;
+    margin-top: 26px;
+}
+
+.menu {
+    font-size: 36px;
+    margin-right: 31px;
+}
+a {
+    text-decoration:none;
+    color: #31383F;
+}
+
+a:active {
+    text-decoration:none;
+    color: #DD8EA4;
+}
+
+a:hover {
+    text-decoration:none;
+    color: #DD8EA4;
+}
+.menubar {
+    display: inline-block;
+    margin-top: 64px;
+    margin-left: 31px;
+
+}

@@ -1,0 +1,24 @@
+.letter {
+    display: inline-block;
+    font-size: 64px;
+    color: #31383F;
+    margin:0;
+    padding-top:22px;
+}
+
+.date_letter {
+    display: inline-block;
+    font-size: 64px;
+    color: #DD6966;
+    margin:0;
+    padding-top:22px;
+}
+.circle {
+    width:10px;
+    height: 10px;
+    background-color: #31383F;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}

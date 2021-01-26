@@ -1,0 +1,78 @@
+.photo {
+    background: url("../image/mainphoto.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 1245px;
+}
+.welcome {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 715px;
+    background: rgba(0, 0, 0, 0.27);
+    text-align: center;
+    font-size: 64px;
+    padding-top: 530px;
+    color: #FFFFFF;
+}
+.polygon {
+    width:60px;
+    height: 60px;
+}
+
+.main {
+    text-align: center;
+    margin-top: 41px;
+}
+
+.profile {
+    font-size: 64px;
+    font-weight: normal;
+    margin-top: 47px;
+    margin-bottom: 62px;
+}
+
+.first_letter {
+    display: inline-block;
+    font-size: 64px;
+    color: #DD8EA4;
+    margin:0;
+    padding-top:22px;
+}
+
+.letter {
+    display: inline-block;
+    font-size: 64px;
+    color: #31383F;
+    margin:0;
+    padding-top:22px;
+}
+
+.line {
+    color: #000000;
+    width: 90%;
+    text-align: center;
+    margin-top: 121px;
+    margin-bottom: 20px;
+}
+
+.school {
+    width: 512px;
+    height: 512px;
+    margin-bottom: 20px;
+}
+
+.school:hover {
+    width: 512px;
+    height: 512px;
+    margin-bottom: 20px;
+    filter: drop-shadow(2px 4px 7px rgba(0, 0, 0, 0.25));
+}
+div {
+    margin:0;
+}
+
+.foot {
+
+}
