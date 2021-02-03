@@ -24,12 +24,12 @@ export function Profile(){
         setSchool(true);
     }
 
-    const Schooleout = () => {
-        setSchool(false);
-    }
-
     return <>
-        {mouse ?(<div className="welcome" onMouseOver={Mouseover}>welcome to <br/> jisungKim blog</div>): null}
+        {mouse ?(<div className="welcome" onMouseOver={Mouseover}>
+            <p className="first_row">WELCOME</p>
+            <p className="second_row">to__</p>
+            <p className="third_row">JisungKim BLOG</p>
+        </div>): null}
         <div className="photo" onMouseOut={Mouseout}></div>
         <div className="main">
             <img className="polygon" src={triangle}/>
@@ -37,15 +37,47 @@ export function Profile(){
             <div><p className="first_letter">N</p><p className="letter">AME_ 김지성</p></div>
             <div><p className="first_letter">D</p><p className="letter">ATE OF BIRTH_ 2001.08.10</p></div>
             <div><p className="first_letter">E</p><p className="letter">MAIL_ cham0810@kookmin.ac.kr</p></div>
-            <div><p className="first_letter">M</p><p className="letter">BTI_ ENFP-T</p></div>
+            <div><p className="first_letter">M</p><p className="letter">BTI_ EN(FT)P-T</p></div>
+            <div>
+                <span className="mbti_detail">외향형</span>
+                <div className="mbti">
+                    <div className="mbti_1"></div>
+                </div>
+                <span className="mbti_detail">내향형</span>
+            </div>
+            <div>
+                <span className="mbti_detail">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;직관형</span>
+                <div className="mbti">
+                    <div className="mbti_2"></div>
+                </div>
+                <span className="mbti_detail">현실주의형</span>
+            </div>
+            <div>
+                <span className="mbti_detail">이성적사고형</span>
+                <div className="mbti">
+                    <div className="mbti_3"></div>
+                </div>
+                <span className="mbti_detail">원칙주의형&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            </div>
+            <div>
+                <span className="mbti_detail">계획형</span>
+                <div className="mbti">
+                    <div className="mbti_4"></div>
+                </div>
+                <span className="mbti_detail">탐색형</span>
+            </div>
+            <div>
+                <span className="mbti_detail">자기주장형</span>
+                <div className="mbti">
+                    <div className="mbti_5"></div>
+                </div>
+                <span className="mbti_detail">신중형&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            </div>
+
             <hr className="line"></hr>
             <h2 className="profile">EDUCATION</h2>
             <img src={schoolImage} className="school" onClick={Schoolover}/>
             {school ? <Education/>:null}
-            <hr className="line"></hr>
-            <img src="git" className="foot"/>
-            <img src="git" className="foot"/>
-            <img src="git" className="foot"/>
 
         </div>
 

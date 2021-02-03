@@ -6,7 +6,7 @@ export function Header(){
     return <>
         <div className="header">
         <div className="menubar">
-            <span className="menu"><a href="/portpolio">portpolio</a></span>
+            <span className="menu"><a href="/portpolio">Photo</a></span>
             <span className="menu"><a href="/diary">Diary</a></span>
             <span className="menu"><a href="/playlist">Playlist</a></span>
         </div>

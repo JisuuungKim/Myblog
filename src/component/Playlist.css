@@ -1,6 +1,6 @@
 .mainImage {
     width: 100%;
-    height: 1026px;
+    height: 700px;
 }
 
 .myplaylist {
@@ -18,27 +18,36 @@
     color: #31383F;
     margin-bottom: 115px;
 }
-.cd {
-    width: 270px;
-    height: 270px;
+
+@keyframes spinCircle {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
+
 .musicPackage {
     text-align: center;
+    margin-bottom: 50px;
+}
+
+.musicPackage span {
+    display: inline-block;
 }
 .music {
     margin-left: 104px;
     margin-right: 104px;
-    width: 300px;
-    height: 300px;
-    z-index: 1;
+    width: 310px;
+    height: 310px;
 }
-
-.namePackage {
-    text-align: center;
+.music:hover {
+    animation-name:spinCircle;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
 }
 .name {
-    display: inline-block;
-    margin-left: 104px;
-    margin-right: 104px;
     font-size: 40px;
+    font-weight: 50;
 }

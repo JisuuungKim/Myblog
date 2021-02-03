@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {MainPage} from './page/MainPage';
 import {PlaylistPage} from "./page/PlaylistPage";
 import {Header} from "./component/Header";
+import {Footer} from "./component/Footer";
 
 function App(){
 
@@ -15,6 +16,7 @@ function App(){
             <Route exact path="/"><MainPage/></Route>
             <Route path="/playlist"><PlaylistPage/></Route>
         </Switch>
+        <Footer/>
 
     </>;
 }
